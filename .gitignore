@@ -1,0 +1,19 @@
+Thumbs.db
+db.json
+.DS_Store
+*.log
+*.iml
+yarn.lock
+package-lock.json
+node_modules/
+public/
+.deploy*/
+.idea/
+
+# Ignore optional external libraries
+/themes/next/source/lib/*
+
+# Track internal libraries & Ignore unused verdors files
+!themes/next/source/lib/font-awesome/
+!themes/next/source/lib/anime.min.js
+!themes/next/source/lib/velocity/
